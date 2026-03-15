@@ -1,0 +1,55 @@
+/* Blocos principais */
+.info,
+.entrada,
+.acoes,
+.feedback {
+  margin-top: 20px;
+}
+
+/* Input centralizado */
+.entrada input {
+  width: 100%;
+}
+
+/* Área de botões */
+.acoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.acoes button {
+  flex: 1;
+}
+
+/* Feedback */
+.feedback p {
+  margin: 8px 0;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #ffffff;
+}
+
+
+main {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+
+  padding: 30px;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 420px;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
