@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Usuários</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Cadastro de Usuários</h1>
 
-    <h1>Cadastro de Usuários</h1>
+        <form id="formCadastro">
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
 
-    <form id="formCadastro">
-        <label>Nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu nome">
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Digite seu email">
 
-        <label>Email:</label>
-        <input type="text" id="email" placeholder="Digite seu email">
+            <label>CEP:</label>
+            <div class="input-lupa">
+                <input type="text" id="cep" placeholder="Digite seu CEP">
+                <button type="button" id="btnBuscarCep">🔍</button>
+            </div>
 
-        <label>CEP:</label>
-        <input type="text" id="cep" placeholder="Digite seu CEP">
+            <label>Endereço:</label>
+            <input type="text" id="endereco" placeholder="Preenchido automaticamente">
 
-        <label>Endereço:</label>
-        <input type="text" id="endereco" placeholder="Preenchido automaticamente">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
 
-        <button type="submit">Cadastrar</button>
-    </form>
-
-    <script src="scripts3.js"></script>
+    <script src="script_final.js"></script>
 </body>
 </html>
